@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(163, 163, 163);
+}
+
+main{
+    background-color: white;
+    max-width: 800px;
+    margin: auto;
+}
+header{
+    background-color: rgba(212, 149, 149, 0.774);
+}
+
+nav{
+    border: 1px solid black;
+    font-size: 1.3em;
+    background-color: black;
+}
+
+nav > a{
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+
+nav > a:hover{
+    font-size: 1.5em;
+    background-color: white;
+    color: black;
+    transition-duration: 0.5s;
+}
+
+body{
+    text-align: center;
+}
+
+
+table{
+    margin: auto;
+   
+}
+caption{
+    font-size: 2em;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+
+tr, th, td{
+    border: 1px solid black;
+}
